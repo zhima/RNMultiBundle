@@ -61,3 +61,11 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+*.hprof
+
+dist/
+
+*.bundle
+
+__tests__/

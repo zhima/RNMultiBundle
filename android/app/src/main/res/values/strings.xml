@@ -2,5 +2,6 @@
     <string name="app_name">AwesomeTSProject</string>
     <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
     <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
-    <string moduleConfig="true" name="CodePushDeploymentKey">Dy26rcSrL01YIIrVkMqJZLeZ9KihjSW7cwq96</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">66xYmdIwnLs8Yat8NbdR1oGvqKjp4ksvOXqog</string>
+    <string moduleConfig="true" name="CodePushServerUrl">http://192.168.31.220:3000</string>
 </resources>

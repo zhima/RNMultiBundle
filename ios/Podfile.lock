@@ -332,6 +332,14 @@ PODS:
     - React-Core
   - RNScreens (2.16.1):
     - React-Core
+  - RNSentry (2.1.0):
+    - React-Core
+    - Sentry (= 6.0.9)
+  - RNSmartassets (1.0.1):
+    - React
+  - Sentry (6.0.9):
+    - Sentry/Core (= 6.0.9)
+  - Sentry/Core (6.0.9)
   - SSZipArchive (2.2.3)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
@@ -393,6 +401,8 @@ DEPENDENCIES:
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
+  - "RNSentry (from `../node_modules/@sentry/react-native`)"
+  - RNSmartassets (from `../node_modules/react-native-smartassets/ios`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -412,6 +422,7 @@ SPEC REPOS:
     - FlipperKit
     - JWT
     - OpenSSL-Universal
+    - Sentry
     - SSZipArchive
     - YogaKit
 
@@ -484,6 +495,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  RNSentry:
+    :path: "../node_modules/@sentry/react-native"
+  RNSmartassets:
+    :path: "../node_modules/react-native-smartassets/ios"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -537,6 +552,9 @@ SPEC CHECKSUMS:
   RNGestureHandler: 9b7e605a741412e20e13c512738a31bd1611759b
   RNReanimated: e03f7425cb7a38dcf1b644d680d1bfc91c3337ad
   RNScreens: 45c457af3d2ee9e08fc01e70da87e653d46b1198
+  RNSentry: 51972e3fe50e2fb38ae459af8c87d61f63f364db
+  RNSmartassets: dad51b742148201a8ca8065d9adf41a39267a893
+  Sentry: 388c9dc093b2fd3a264466a5c5b21e25959610a9
   SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
   Yoga: 7d13633d129fd179e01b8953d38d47be90db185a
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a

@@ -1,0 +1,458 @@
+{
+  "root": "/Users/utzc/Documents/test/AwesomeTSProject",
+  "reactNativePath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native",
+  "dependencies": {
+    "@react-native-community/masked-view": {
+      "root": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/@react-native-community/masked-view",
+      "name": "@react-native-community/masked-view",
+      "platforms": {
+        "ios": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/@react-native-community/masked-view/ios",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/@react-native-community/masked-view",
+          "pbxprojPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/@react-native-community/masked-view/ios/RNCMaskedView.xcodeproj/project.pbxproj",
+          "podfile": null,
+          "podspecPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/@react-native-community/masked-view/RNCMaskedView.podspec",
+          "projectPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/@react-native-community/masked-view/ios/RNCMaskedView.xcodeproj",
+          "projectName": "RNCMaskedView.xcodeproj",
+          "libraryFolder": "Libraries",
+          "sharedLibraries": [],
+          "plist": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/@react-native-community/masked-view/android",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/@react-native-community/masked-view",
+          "packageImportPath": "import org.reactnative.maskedview.RNCMaskedViewPackage;",
+          "packageInstance": "new RNCMaskedViewPackage()"
+        }
+      },
+      "assets": [],
+      "hooks": {},
+      "params": []
+    },
+    "appcenter": {
+      "root": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter",
+      "name": "appcenter",
+      "platforms": {
+        "ios": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter/ios",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter",
+          "pbxprojPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter/ios/AppCenterReactNative.xcodeproj/project.pbxproj",
+          "podfile": null,
+          "podspecPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter/ios/appcenter-core.podspec",
+          "projectPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter/ios/AppCenterReactNative.xcodeproj",
+          "projectName": "AppCenterReactNative.xcodeproj",
+          "libraryFolder": "Libraries",
+          "sharedLibraries": [],
+          "plist": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter/android",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter",
+          "packageImportPath": "import com.microsoft.appcenter.reactnative.appcenter.AppCenterReactNativePackage;",
+          "packageInstance": "new AppCenterReactNativePackage(getApplication())"
+        }
+      },
+      "assets": [],
+      "hooks": {},
+      "params": []
+    },
+    "appcenter-analytics": {
+      "root": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-analytics",
+      "name": "appcenter-analytics",
+      "platforms": {
+        "ios": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-analytics/ios",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-analytics",
+          "pbxprojPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics.xcodeproj/project.pbxproj",
+          "podfile": null,
+          "podspecPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-analytics/ios/appcenter-analytics.podspec",
+          "projectPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics.xcodeproj",
+          "projectName": "AppCenterReactNativeAnalytics.xcodeproj",
+          "libraryFolder": "Libraries",
+          "sharedLibraries": [],
+          "plist": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-analytics/android",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-analytics",
+          "packageImportPath": "import com.microsoft.appcenter.reactnative.analytics.AppCenterReactNativeAnalyticsPackage;",
+          "packageInstance": "new AppCenterReactNativeAnalyticsPackage(getApplication(), getResources().getString(R.string.appCenterAnalytics_whenToEnableAnalytics))"
+        }
+      },
+      "assets": [],
+      "hooks": {},
+      "params": []
+    },
+    "appcenter-crashes": {
+      "root": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-crashes",
+      "name": "appcenter-crashes",
+      "platforms": {
+        "ios": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-crashes/ios",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-crashes",
+          "pbxprojPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes.xcodeproj/project.pbxproj",
+          "podfile": null,
+          "podspecPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-crashes/ios/appcenter-crashes.podspec",
+          "projectPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes.xcodeproj",
+          "projectName": "AppCenterReactNativeCrashes.xcodeproj",
+          "libraryFolder": "Libraries",
+          "sharedLibraries": [],
+          "plist": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-crashes/android",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/appcenter-crashes",
+          "packageImportPath": "import com.microsoft.appcenter.reactnative.crashes.AppCenterReactNativeCrashesPackage;",
+          "packageInstance": "new AppCenterReactNativeCrashesPackage(getApplication(), getResources().getString(R.string.appCenterCrashes_whenToSendCrashes))"
+        }
+      },
+      "assets": [],
+      "hooks": {},
+      "params": []
+    },
+    "react-native-code-push": {
+      "root": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-code-push",
+      "name": "react-native-code-push",
+      "platforms": {
+        "ios": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-code-push/ios",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-code-push",
+          "pbxprojPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-code-push/ios/CodePush.xcodeproj/project.pbxproj",
+          "podfile": null,
+          "podspecPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-code-push/CodePush.podspec",
+          "projectPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-code-push/ios/CodePush.xcodeproj",
+          "projectName": "CodePush.xcodeproj",
+          "libraryFolder": "Libraries",
+          "sharedLibraries": [],
+          "plist": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-code-push/android",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-code-push",
+          "packageImportPath": "import com.microsoft.codepush.react.CodePush;",
+          "packageInstance": "new CodePush(getResources().getString(R.string.CodePushDeploymentKey), getApplicationContext(), BuildConfig.DEBUG)"
+        }
+      },
+      "assets": [],
+      "hooks": {},
+      "params": []
+    },
+    "react-native-gesture-handler": {
+      "root": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-gesture-handler",
+      "name": "react-native-gesture-handler",
+      "platforms": {
+        "ios": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-gesture-handler/ios",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-gesture-handler",
+          "pbxprojPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj/project.pbxproj",
+          "podfile": null,
+          "podspecPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-gesture-handler/RNGestureHandler.podspec",
+          "projectPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj",
+          "projectName": "RNGestureHandler.xcodeproj",
+          "libraryFolder": "Libraries",
+          "sharedLibraries": [],
+          "plist": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-gesture-handler/android",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-gesture-handler",
+          "packageImportPath": "import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;",
+          "packageInstance": "new RNGestureHandlerPackage()"
+        }
+      },
+      "assets": [],
+      "hooks": {},
+      "params": []
+    },
+    "react-native-permissions": {
+      "root": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-permissions",
+      "name": "react-native-permissions",
+      "platforms": {
+        "ios": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-permissions/ios",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-permissions",
+          "pbxprojPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-permissions/ios/RNPermissions.xcodeproj/project.pbxproj",
+          "podfile": null,
+          "podspecPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-permissions/RNPermissions.podspec",
+          "projectPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-permissions/ios/RNPermissions.xcodeproj",
+          "projectName": "RNPermissions.xcodeproj",
+          "libraryFolder": "Libraries",
+          "sharedLibraries": [],
+          "plist": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-permissions/android",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-permissions",
+          "packageImportPath": "import com.zoontek.rnpermissions.RNPermissionsPackage;",
+          "packageInstance": "new RNPermissionsPackage()"
+        }
+      },
+      "assets": [],
+      "hooks": {},
+      "params": []
+    },
+    "react-native-reanimated": {
+      "root": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-reanimated",
+      "name": "react-native-reanimated",
+      "platforms": {
+        "ios": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-reanimated/ios",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-reanimated",
+          "pbxprojPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-reanimated/ios/RNReanimated.xcodeproj/project.pbxproj",
+          "podfile": null,
+          "podspecPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-reanimated/RNReanimated.podspec",
+          "projectPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-reanimated/ios/RNReanimated.xcodeproj",
+          "projectName": "RNReanimated.xcodeproj",
+          "libraryFolder": "Libraries",
+          "sharedLibraries": [],
+          "plist": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-reanimated/android",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-reanimated",
+          "packageImportPath": "import com.swmansion.reanimated.ReanimatedPackage;",
+          "packageInstance": "new ReanimatedPackage()"
+        }
+      },
+      "assets": [],
+      "hooks": {},
+      "params": []
+    },
+    "react-native-safe-area-context": {
+      "root": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-safe-area-context",
+      "name": "react-native-safe-area-context",
+      "platforms": {
+        "ios": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-safe-area-context/ios",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-safe-area-context",
+          "pbxprojPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-safe-area-context/ios/SafeAreaView.xcodeproj/project.pbxproj",
+          "podfile": null,
+          "podspecPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
+          "projectPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-safe-area-context/ios/SafeAreaView.xcodeproj",
+          "projectName": "SafeAreaView.xcodeproj",
+          "libraryFolder": "Libraries",
+          "sharedLibraries": [],
+          "plist": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-safe-area-context/android",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-safe-area-context",
+          "packageImportPath": "import com.th3rdwave.safeareacontext.SafeAreaContextPackage;",
+          "packageInstance": "new SafeAreaContextPackage()"
+        }
+      },
+      "assets": [],
+      "hooks": {},
+      "params": []
+    },
+    "react-native-screens": {
+      "root": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-screens",
+      "name": "react-native-screens",
+      "platforms": {
+        "ios": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-screens/ios",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-screens",
+          "pbxprojPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-screens/ios/RNScreens.xcodeproj/project.pbxproj",
+          "podfile": null,
+          "podspecPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-screens/RNScreens.podspec",
+          "projectPath": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-screens/ios/RNScreens.xcodeproj",
+          "projectName": "RNScreens.xcodeproj",
+          "libraryFolder": "Libraries",
+          "sharedLibraries": [],
+          "plist": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-screens/android",
+          "folder": "/Users/utzc/Documents/test/AwesomeTSProject/node_modules/react-native-screens",
+          "packageImportPath": "import com.swmansion.rnscreens.RNScreensPackage;",
+          "packageInstance": "new RNScreensPackage()"
+        }
+      },
+      "assets": [],
+      "hooks": {},
+      "params": []
+    }
+  },
+  "commands": [
+    {
+      "name": "log-ios",
+      "description": "starts iOS device syslog tail"
+    },
+    {
+      "name": "run-ios",
+      "description": "builds your app and starts it on iOS simulator",
+      "examples": [
+        {
+          "desc": "Run on a different simulator, e.g. iPhone SE",
+          "cmd": "react-native run-ios --simulator \"iPhone SE\""
+        },
+        {
+          "desc": "Pass a non-standard location of iOS directory",
+          "cmd": "react-native run-ios --project-path \"./app/ios\""
+        },
+        {
+          "desc": "Run on a connected device, e.g. Max's iPhone",
+          "cmd": "react-native run-ios --device \"Max's iPhone\""
+        },
+        {
+          "desc": "Run on the AppleTV simulator",
+          "cmd": "react-native run-ios --simulator \"Apple TV\"  --scheme \"helloworld-tvOS\""
+        }
+      ],
+      "options": [
+        {
+          "name": "--simulator [string]",
+          "description": "Explicitly set simulator to use. Optionally include iOS version between parenthesis at the end to match an exact version: \"iPhone 6 (10.0)\"",
+          "default": "iPhone 11"
+        },
+        {
+          "name": "--configuration [string]",
+          "description": "Explicitly set the scheme configuration to use",
+          "default": "Debug"
+        },
+        {
+          "name": "--scheme [string]",
+          "description": "Explicitly set Xcode scheme to use"
+        },
+        {
+          "name": "--project-path [string]",
+          "description": "Path relative to project root where the Xcode project (.xcodeproj) lives.",
+          "default": "ios"
+        },
+        {
+          "name": "--device [string]",
+          "description": "Explicitly set device to use by name.  The value is not required if you have a single device connected."
+        },
+        {
+          "name": "--udid [string]",
+          "description": "Explicitly set device to use by udid"
+        },
+        {
+          "name": "--no-packager",
+          "description": "Do not launch packager while building"
+        },
+        {
+          "name": "--verbose",
+          "description": "Do not use xcpretty even if installed"
+        },
+        {
+          "name": "--port [number]",
+          "default": 8081
+        },
+        {
+          "name": "--terminal [string]",
+          "description": "Launches the Metro Bundler in a new window using the specified terminal path."
+        }
+      ]
+    },
+    {
+      "name": "log-android",
+      "description": "starts logkitty"
+    },
+    {
+      "name": "run-android",
+      "description": "builds your app and starts it on a connected Android emulator or device",
+      "options": [
+        {
+          "name": "--root [string]",
+          "description": "[DEPRECATED - root is discovered automatically] Override the root directory for the android build (which contains the android directory)",
+          "default": ""
+        },
+        {
+          "name": "--variant [string]",
+          "description": "Specify your app's build variant",
+          "default": "debug"
+        },
+        {
+          "name": "--appFolder [string]",
+          "description": "[DEPRECATED – use \"project.android.appName\" in react-native.config.js] Specify a different application folder name for the android source. If not, we assume is \"app\""
+        },
+        {
+          "name": "--appId [string]",
+          "description": "Specify an applicationId to launch after build. If not specified, `package` from AndroidManifest.xml will be used.",
+          "default": ""
+        },
+        {
+          "name": "--appIdSuffix [string]",
+          "description": "Specify an applicationIdSuffix to launch after build.",
+          "default": ""
+        },
+        {
+          "name": "--main-activity [string]",
+          "description": "Name of the activity to start",
+          "default": "MainActivity"
+        },
+        {
+          "name": "--deviceId [string]",
+          "description": "builds your app and starts it on a specific device/simulator with the given device id (listed by running \"adb devices\" on the command line)."
+        },
+        {
+          "name": "--no-packager",
+          "description": "Do not launch packager while building"
+        },
+        {
+          "name": "--port [number]",
+          "default": 8081
+        },
+        {
+          "name": "--terminal [string]",
+          "description": "Launches the Metro Bundler in a new window using the specified terminal path.",
+          "default": "vscode"
+        },
+        {
+          "name": "--tasks [list]",
+          "description": "Run custom Gradle tasks. By default it's \"installDebug\""
+        },
+        {
+          "name": "--no-jetifier",
+          "description": "Do not run \"jetifier\" – the AndroidX transition tool. By default it runs before Gradle to ease working with libraries that don't support AndroidX yet. See more at: https://www.npmjs.com/package/jetifier.",
+          "default": false
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "platforms": {
+    "ios": {},
+    "android": {}
+  },
+  "project": {
+    "ios": {
+      "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/ios",
+      "folder": "/Users/utzc/Documents/test/AwesomeTSProject",
+      "pbxprojPath": "/Users/utzc/Documents/test/AwesomeTSProject/ios/AwesomeTSProject.xcodeproj/project.pbxproj",
+      "podfile": "/Users/utzc/Documents/test/AwesomeTSProject/ios/Podfile",
+      "podspecPath": null,
+      "projectPath": "/Users/utzc/Documents/test/AwesomeTSProject/ios/AwesomeTSProject.xcodeproj",
+      "projectName": "AwesomeTSProject.xcodeproj",
+      "libraryFolder": "Libraries",
+      "sharedLibraries": [],
+      "plist": [],
+      "scriptPhases": []
+    },
+    "android": {
+      "sourceDir": "/Users/utzc/Documents/test/AwesomeTSProject/android",
+      "isFlat": true,
+      "folder": "/Users/utzc/Documents/test/AwesomeTSProject",
+      "stringsPath": "/Users/utzc/Documents/test/AwesomeTSProject/android/app/src/main/res/values/strings.xml",
+      "manifestPath": "/Users/utzc/Documents/test/AwesomeTSProject/android/app/src/main/AndroidManifest.xml",
+      "buildGradlePath": "/Users/utzc/Documents/test/AwesomeTSProject/android/build.gradle",
+      "settingsGradlePath": "/Users/utzc/Documents/test/AwesomeTSProject/android/settings.gradle",
+      "assetsPath": "/Users/utzc/Documents/test/AwesomeTSProject/android/app/src/main/assets",
+      "mainFilePath": "/Users/utzc/Documents/test/AwesomeTSProject/android/app/src/main/java/com/awesometsproject/MainApplication.java",
+      "packageName": "com.awesometsproject",
+      "packageFolder": "com/awesometsproject",
+      "appName": "app"
+    }
+  }
+}

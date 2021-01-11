@@ -2,6 +2,8 @@ package com.awesometsproject;
 
 import android.app.Application;
 import android.content.Context;
+
+import com.awesometsproject.custom.CustomReactPackage;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactInstanceManager;
@@ -28,18 +30,33 @@ public class MainApplication extends Application implements ReactApplication {
           List<ReactPackage> packages = new PackageList(this).getPackages();
           // Packages that cannot be autolinked yet can be added manually here, for example:
           // packages.add(new MyReactNativePackage());
-          return packages;
+          // 先移除auto link的code push包，再手动添加
+          // for(ReactPackage rp:packages){
+          //   if(rp instanceof CodePush){
+          //     packages.remove(rp);
+          //     break;
+          //   }
+          // }
+          // packages.add(new CodePush("66xYmdIwnLs8Yat8NbdR1oGvqKjp4ksvOXqog", getApplicationContext(), BuildConfig.DEBUG,"http://192.168.31.220:3000"));
+            packages.add(new CustomReactPackage());
+
+            return packages;
         }
+
+//          @Override
+//          protected String getBundleAssetName() {
+//              return "common.android.bundle";
+//          }
 
         @Override
         protected String getJSMainModuleName() {
           return "index";
         }
 
-        @Override
-        protected String getJSBundleFile() {
-            return CodePush.getJSBundleFile();
-        }
+//        @Override
+//        protected String getJSBundleFile() {
+//            return CodePush.getJSBundleFile();
+//        }
       };
 
   @Override
