@@ -27,6 +27,10 @@ const Home: React.FC<HomeProps> = ({ navigation }) => {
     navigation.navigate('SecondPage');
   }
 
+  const thirdPagePress = () => {
+    navigation.navigate('FirstPage');
+  }
+
   const btnPress = () => {
     throw new Error("My first Sentry error!");
     // fetch('https://www.baidu.com').then((res) => {
@@ -70,6 +74,10 @@ const Home: React.FC<HomeProps> = ({ navigation }) => {
       <Button
         title="Throw Error"
         onPress={btnPress}
+      />
+      <Button
+        title="Go to Third Page"
+        onPress={thirdPagePress}
       />
       <Button
         title="checkForUpdate Press"

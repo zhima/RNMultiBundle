@@ -21,14 +21,25 @@ function isInManifest (path) {
 }
 
 function processModuleFilter(module) {
-    if (module['path'].indexOf('__prelude__') >= 0) {
+    const path = module['path']
+    if (path.indexOf("__prelude__") >= 0 ||
+        path.indexOf("/node_modules/react-native/Libraries/polyfills") >= 0 ||
+        path.indexOf("source-map") >= 0 ||
+        path.indexOf("/node_modules/metro/src/lib/polyfills/") >= 0) {
         return false;
     }
+    // if (module['path'].indexOf(pathSep + 'node_modules' + pathSep) > 0) {
+    //     if ('js' + pathSep + 'script' + pathSep + 'virtual' == module['output'][0]['type']) {
+    //         return true;
+    //     }
+    // }
     if (isInManifest(module['path'])) {
         return false;
     }
     return true;
 }
+
+const randomNum = Math.ceil(Math.random() * 10000) ;
 
 function createModuleIdFactory() {
     return path => {
@@ -39,7 +50,9 @@ function createModuleIdFactory() {
         let regExp = pathSep == '\\' ?
             new RegExp('\\\\',"gm") :
             new RegExp(pathSep,"gm");
-        
+        if (/\/ut-src\//.test(path)) {
+            return name.replace(regExp,'_') + randomNum;
+        }
         return name.replace(regExp,'_');
     };
 }

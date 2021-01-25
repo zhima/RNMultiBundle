@@ -6,7 +6,7 @@ interface SecondPageProps {}
 const SecondPage = (props: SecondPageProps) => {
   return (
     <View style={styles.container}>
-      <Text>SecondPage</Text>
+      <Text>SecondPageeeeeeeSSSSSS</Text>
     </View>
   );
 };

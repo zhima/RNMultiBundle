@@ -5,11 +5,27 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* AwesomeTSProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AwesomeTSProjectTests.m */; };
+		13AB341625BEA7CE0061F3D3 /* UTBundleLoadEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AB341325BEA7CE0061F3D3 /* UTBundleLoadEventEmitter.m */; };
+		13AB341725BEA7CE0061F3D3 /* UTBundleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AB341425BEA7CE0061F3D3 /* UTBundleLoader.m */; };
+		13AB341825BEA7CE0061F3D3 /* UTReactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AB341525BEA7CE0061F3D3 /* UTReactViewController.m */; };
+		13AB342725BEA8220061F3D3 /* BundleloadEventEmiter.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AB341E25BEA8220061F3D3 /* BundleloadEventEmiter.m */; };
+		13AB342825BEA8220061F3D3 /* ReactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AB342025BEA8220061F3D3 /* ReactController.m */; };
+		13AB342925BEA8220061F3D3 /* ScriptLoadUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AB342125BEA8220061F3D3 /* ScriptLoadUtil.m */; };
+		13AB342A25BEA8220061F3D3 /* BundleDownloadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AB342225BEA8220061F3D3 /* BundleDownloadHandler.m */; };
+		13AB343825BEA9AB0061F3D3 /* ios.index.busn1.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13AB343425BEA9AB0061F3D3 /* ios.index.busn1.bundle */; };
+		13AB343925BEA9AB0061F3D3 /* ios.common.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13AB343525BEA9AB0061F3D3 /* ios.common.bundle */; };
+		13AB343A25BEA9AB0061F3D3 /* ios.index.busn2.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13AB343625BEA9AB0061F3D3 /* ios.index.busn2.bundle */; };
+		13AB343B25BEA9AB0061F3D3 /* ios.index.main.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13AB343725BEA9AB0061F3D3 /* ios.index.main.bundle */; };
+		13AB344425BEA9EE0061F3D3 /* num.ios.index.busn1.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13AB344125BEA9EE0061F3D3 /* num.ios.index.busn1.bundle */; };
+		13AB344525BEA9EE0061F3D3 /* num.ios.common.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13AB344225BEA9EE0061F3D3 /* num.ios.common.bundle */; };
+		13AB344625BEA9EE0061F3D3 /* num.ios.index.main.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13AB344325BEA9EE0061F3D3 /* num.ios.index.main.bundle */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13DA542325AE9B9300B3E76C /* RCTCustomModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DA542225AE9B9300B3E76C /* RCTCustomModule.m */; };
 		24DFB840FA97A13DF046B2A7 /* libPods-AwesomeTSProject-AwesomeTSProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA57849107D5B45C18AA187 /* libPods-AwesomeTSProject-AwesomeTSProjectTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -43,12 +59,36 @@
 		00E356EE1AD99517003FC87E /* AwesomeTSProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeTSProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AwesomeTSProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeTSProjectTests.m; sourceTree = "<group>"; };
+		13AB341025BEA7CE0061F3D3 /* UTBundleLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTBundleLoader.h; sourceTree = "<group>"; };
+		13AB341125BEA7CE0061F3D3 /* UTBundleLoadEventEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTBundleLoadEventEmitter.h; sourceTree = "<group>"; };
+		13AB341225BEA7CE0061F3D3 /* UTReactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTReactViewController.h; sourceTree = "<group>"; };
+		13AB341325BEA7CE0061F3D3 /* UTBundleLoadEventEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTBundleLoadEventEmitter.m; sourceTree = "<group>"; };
+		13AB341425BEA7CE0061F3D3 /* UTBundleLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTBundleLoader.m; sourceTree = "<group>"; };
+		13AB341525BEA7CE0061F3D3 /* UTReactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTReactViewController.m; sourceTree = "<group>"; };
+		13AB341E25BEA8220061F3D3 /* BundleloadEventEmiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleloadEventEmiter.m; sourceTree = "<group>"; };
+		13AB341F25BEA8220061F3D3 /* RCTBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTBridge.h; sourceTree = "<group>"; };
+		13AB342025BEA8220061F3D3 /* ReactController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactController.m; sourceTree = "<group>"; };
+		13AB342125BEA8220061F3D3 /* ScriptLoadUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptLoadUtil.m; sourceTree = "<group>"; };
+		13AB342225BEA8220061F3D3 /* BundleDownloadHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleDownloadHandler.m; sourceTree = "<group>"; };
+		13AB342325BEA8220061F3D3 /* BundleloadEventEmiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleloadEventEmiter.h; sourceTree = "<group>"; };
+		13AB342425BEA8220061F3D3 /* ScriptLoadUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptLoadUtil.h; sourceTree = "<group>"; };
+		13AB342525BEA8220061F3D3 /* ReactController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactController.h; sourceTree = "<group>"; };
+		13AB342625BEA8220061F3D3 /* BundleDownloadHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleDownloadHandler.h; sourceTree = "<group>"; };
+		13AB343425BEA9AB0061F3D3 /* ios.index.busn1.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios.index.busn1.bundle; sourceTree = "<group>"; };
+		13AB343525BEA9AB0061F3D3 /* ios.common.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios.common.bundle; sourceTree = "<group>"; };
+		13AB343625BEA9AB0061F3D3 /* ios.index.busn2.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios.index.busn2.bundle; sourceTree = "<group>"; };
+		13AB343725BEA9AB0061F3D3 /* ios.index.main.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios.index.main.bundle; sourceTree = "<group>"; };
+		13AB344125BEA9EE0061F3D3 /* num.ios.index.busn1.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = num.ios.index.busn1.bundle; sourceTree = "<group>"; };
+		13AB344225BEA9EE0061F3D3 /* num.ios.common.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = num.ios.common.bundle; sourceTree = "<group>"; };
+		13AB344325BEA9EE0061F3D3 /* num.ios.index.main.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = num.ios.index.main.bundle; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AwesomeTSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeTSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AwesomeTSProject/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AwesomeTSProject/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AwesomeTSProject/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesomeTSProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeTSProject/main.m; sourceTree = "<group>"; };
+		13DA542125AE9B9300B3E76C /* RCTCustomModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTCustomModule.h; sourceTree = "<group>"; };
+		13DA542225AE9B9300B3E76C /* RCTCustomModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTCustomModule.m; sourceTree = "<group>"; };
 		15B2A34B2959EDF05B96A658 /* Pods-AwesomeTSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* AwesomeTSProject-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AwesomeTSProject-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* AwesomeTSProject-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AwesomeTSProject-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,9 +161,66 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		13AB340F25BEA7CE0061F3D3 /* UTReactMultiBundle */ = {
+			isa = PBXGroup;
+			children = (
+				13AB341025BEA7CE0061F3D3 /* UTBundleLoader.h */,
+				13AB341125BEA7CE0061F3D3 /* UTBundleLoadEventEmitter.h */,
+				13AB341225BEA7CE0061F3D3 /* UTReactViewController.h */,
+				13AB341325BEA7CE0061F3D3 /* UTBundleLoadEventEmitter.m */,
+				13AB341425BEA7CE0061F3D3 /* UTBundleLoader.m */,
+				13AB341525BEA7CE0061F3D3 /* UTReactViewController.m */,
+			);
+			name = UTReactMultiBundle;
+			path = AwesomeTSProject/UTReactMultiBundle;
+			sourceTree = "<group>";
+		};
+		13AB341D25BEA8220061F3D3 /* SmallNewMultiBundle */ = {
+			isa = PBXGroup;
+			children = (
+				13AB342325BEA8220061F3D3 /* BundleloadEventEmiter.h */,
+				13AB341E25BEA8220061F3D3 /* BundleloadEventEmiter.m */,
+				13AB341F25BEA8220061F3D3 /* RCTBridge.h */,
+				13AB342525BEA8220061F3D3 /* ReactController.h */,
+				13AB342025BEA8220061F3D3 /* ReactController.m */,
+				13AB342425BEA8220061F3D3 /* ScriptLoadUtil.h */,
+				13AB342125BEA8220061F3D3 /* ScriptLoadUtil.m */,
+				13AB342625BEA8220061F3D3 /* BundleDownloadHandler.h */,
+				13AB342225BEA8220061F3D3 /* BundleDownloadHandler.m */,
+			);
+			name = SmallNewMultiBundle;
+			path = AwesomeTSProject/SmallNewMultiBundle;
+			sourceTree = "<group>";
+		};
+		13AB343325BEA9AB0061F3D3 /* StringIndexBundle */ = {
+			isa = PBXGroup;
+			children = (
+				13AB343425BEA9AB0061F3D3 /* ios.index.busn1.bundle */,
+				13AB343525BEA9AB0061F3D3 /* ios.common.bundle */,
+				13AB343625BEA9AB0061F3D3 /* ios.index.busn2.bundle */,
+				13AB343725BEA9AB0061F3D3 /* ios.index.main.bundle */,
+			);
+			path = StringIndexBundle;
+			sourceTree = "<group>";
+		};
+		13AB344025BEA9EE0061F3D3 /* NumIndexBundle */ = {
+			isa = PBXGroup;
+			children = (
+				13AB344125BEA9EE0061F3D3 /* num.ios.index.busn1.bundle */,
+				13AB344225BEA9EE0061F3D3 /* num.ios.common.bundle */,
+				13AB344325BEA9EE0061F3D3 /* num.ios.index.main.bundle */,
+			);
+			path = NumIndexBundle;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* AwesomeTSProject */ = {
 			isa = PBXGroup;
 			children = (
+				13AB344025BEA9EE0061F3D3 /* NumIndexBundle */,
+				13AB343325BEA9AB0061F3D3 /* StringIndexBundle */,
+				13AB341D25BEA8220061F3D3 /* SmallNewMultiBundle */,
+				13AB340F25BEA7CE0061F3D3 /* UTReactMultiBundle */,
+				13DA541225AE9B1E00B3E76C /* CustomModule */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -133,6 +230,15 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = AwesomeTSProject;
+			sourceTree = "<group>";
+		};
+		13DA541225AE9B1E00B3E76C /* CustomModule */ = {
+			isa = PBXGroup;
+			children = (
+				13DA542125AE9B9300B3E76C /* RCTCustomModule.h */,
+				13DA542225AE9B9300B3E76C /* RCTCustomModule.m */,
+			);
+			path = CustomModule;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -339,8 +445,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AB343825BEA9AB0061F3D3 /* ios.index.busn1.bundle in Resources */,
+				13AB343A25BEA9AB0061F3D3 /* ios.index.busn2.bundle in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13AB344525BEA9EE0061F3D3 /* num.ios.common.bundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13AB343925BEA9AB0061F3D3 /* ios.common.bundle in Resources */,
+				13AB343B25BEA9AB0061F3D3 /* ios.index.main.bundle in Resources */,
+				13AB344425BEA9EE0061F3D3 /* num.ios.index.busn1.bundle in Resources */,
+				13AB344625BEA9EE0061F3D3 /* num.ios.index.main.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +605,20 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeTSProject-AwesomeTSProjectTests/Pods-AwesomeTSProject-AwesomeTSProjectTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E13682496ECE4963B6AB2AEF /* Upload Debug Symbols to Sentry */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Upload Debug Symbols to Sentry";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $CONFIGURATION == Release ]; then\n    export SENTRY_PROPERTIES=sentry.properties\n    ../node_modules/@sentry/cli/bin/sentry-cli upload-dsym\nfi\n";
+		};
 		FAEA80A13CC77B0FD8748786 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -552,20 +679,6 @@
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E13682496ECE4963B6AB2AEF /* Upload Debug Symbols to Sentry */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			name = "Upload Debug Symbols to Sentry";
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			shellPath = /bin/sh;
-			shellScript = "export SENTRY_PROPERTIES=sentry.properties\n../node_modules/@sentry/cli/bin/sentry-cli upload-dsym";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -581,8 +694,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AB342925BEA8220061F3D3 /* ScriptLoadUtil.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13AB342A25BEA8220061F3D3 /* BundleDownloadHandler.m in Sources */,
+				13AB341825BEA7CE0061F3D3 /* UTReactViewController.m in Sources */,
+				13AB342725BEA8220061F3D3 /* BundleloadEventEmiter.m in Sources */,
+				13AB341625BEA7CE0061F3D3 /* UTBundleLoadEventEmitter.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				13AB341725BEA7CE0061F3D3 /* UTBundleLoader.m in Sources */,
+				13DA542325AE9B9300B3E76C /* RCTCustomModule.m in Sources */,
+				13AB342825BEA8220061F3D3 /* ReactController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

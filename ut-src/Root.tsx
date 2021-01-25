@@ -12,6 +12,8 @@ import codePush from "react-native-code-push";
 import * as Sentry from "@sentry/react-native";
 Sentry.init({
   dsn: "https://cec134d159f74713af12b772b30b8b87@o500656.ingest.sentry.io/5580838",
+  release: 'com.awesometsproject-1.0',
+  dist: '32',
 });
 
 interface RootProps {}

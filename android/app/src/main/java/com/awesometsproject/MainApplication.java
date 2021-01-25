@@ -21,7 +21,7 @@ public class MainApplication extends Application implements ReactApplication {
       new ReactNativeHost(this) {
         @Override
         public boolean getUseDeveloperSupport() {
-          return BuildConfig.DEBUG;
+          return false;
         }
 
         @Override
@@ -43,10 +43,10 @@ public class MainApplication extends Application implements ReactApplication {
             return packages;
         }
 
-//          @Override
-//          protected String getBundleAssetName() {
-//              return "common.android.bundle";
-//          }
+          @Override
+          protected String getBundleAssetName() {
+              return "android.common.bundle";
+          }
 
         @Override
         protected String getJSMainModuleName() {
