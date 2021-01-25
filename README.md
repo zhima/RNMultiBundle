@@ -12,3 +12,13 @@ npx react-native bundle --platform ios --dev false --entry-file ./common.js --bu
 npx react-native bundle --platform ios --dev false --entry-file ./index-main.js --bundle-output ./dist/ios/ios.index.main.bundle --config ./metro.buz.config.js
 npx react-native bundle --platform ios --dev false --entry-file ./ut-src/index.js --bundle-output ./dist/ios/ios.index.busn1.bundle --config ./metro.buz.config.js
 ```
+
+```
+PLATFORM=iOS npx react-native bundle --platform ios --dev false --entry-file ./common.js --bundle-output ./dist/ios.common.bundle --sourcemap-output ./dist/ios.common.bundle.map --config ./metro.common.config.js
+
+PLATFORM=iOS npx react-native bundle --platform ios --dev false --entry-file ./index.js --bundle-output ./dist/ios.index.busn1.bundle --sourcemap-output ./dist/ios.index.busn2.bundle.map --config ./metro.business.config.js
+
+PLATFORM=Android npx react-native bundle --platform android --dev false --entry-file ./common.js --bundle-output ./dist/android.common.bundle --sourcemap-output ./dist/android.common.bundle.map --config ./metro.common.config.js
+
+PLATFORM=Android npx react-native bundle --platform android --dev false --entry-file ./index.js --bundle-output ./dist/android.index.busn1.bundle --sourcemap-output ./dist/android.index.busn1.bundle.map --config ./metro.business.config.js
+```
