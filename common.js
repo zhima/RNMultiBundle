@@ -18,7 +18,7 @@ if(Platform.OS != 'android') {//ios
 	const bundleLoadEmitter = new NativeEventEmitter(BundleloadEventEmiter);
 
 	const subscription = bundleLoadEmitter.addListener(
-		'BundleLoad',
+		'DidLoadBundlePath',
 		(bundleInfo) => {
 			console.log('BundleLoad==' + bundleInfo.path);
 			SmartAssets.setBundlePath(bundleInfo.path);

@@ -165,10 +165,10 @@
 			isa = PBXGroup;
 			children = (
 				13AB341025BEA7CE0061F3D3 /* UTBundleLoader.h */,
-				13AB341125BEA7CE0061F3D3 /* UTBundleLoadEventEmitter.h */,
-				13AB341225BEA7CE0061F3D3 /* UTReactViewController.h */,
-				13AB341325BEA7CE0061F3D3 /* UTBundleLoadEventEmitter.m */,
 				13AB341425BEA7CE0061F3D3 /* UTBundleLoader.m */,
+				13AB341125BEA7CE0061F3D3 /* UTBundleLoadEventEmitter.h */,
+				13AB341325BEA7CE0061F3D3 /* UTBundleLoadEventEmitter.m */,
+				13AB341225BEA7CE0061F3D3 /* UTReactViewController.h */,
 				13AB341525BEA7CE0061F3D3 /* UTReactViewController.m */,
 			);
 			name = UTReactMultiBundle;
@@ -607,7 +607,7 @@
 		};
 		E13682496ECE4963B6AB2AEF /* Upload Debug Symbols to Sentry */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -615,7 +615,7 @@
 			name = "Upload Debug Symbols to Sentry";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "if [ $CONFIGURATION == Release ]; then\n    export SENTRY_PROPERTIES=sentry.properties\n    ../node_modules/@sentry/cli/bin/sentry-cli upload-dsym\nfi\n";
 		};

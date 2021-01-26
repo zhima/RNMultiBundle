@@ -30,7 +30,6 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  NSLog(@"UTReactViewController viewDidLoad");
   self.view.backgroundColor = [UIColor whiteColor];
   
   UTBundleLoader *bundleLoader = [UTBundleLoader sharedInstance];
@@ -44,9 +43,9 @@
   } else {
     [self addObserver];
     
-    UIActivityIndicatorView* loadingView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:(UIActivityIndicatorViewStyleGray)];
+    UIActivityIndicatorView* loadingView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:(UIActivityIndicatorViewStyleWhiteLarge)];
     loadingView.center = self.view.center;
-    loadingView.color = [UIColor blueColor];
+    loadingView.color = [UIColor darkGrayColor];
     [self.view addSubview:loadingView];
     [loadingView startAnimating];
     self.loadingView = loadingView;
@@ -90,7 +89,6 @@
   RCTRootView* view = [[RCTRootView alloc] initWithBridge:bridge moduleName:self.moduleName initialProperties:nil];
   view.frame = self.view.bounds;
   view.backgroundColor = [UIColor whiteColor];
-  NSLog(@"UTReactViewController setView");
   self.view = view;
 }
 
