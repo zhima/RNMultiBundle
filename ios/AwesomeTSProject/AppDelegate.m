@@ -9,8 +9,9 @@
 #import <React/RCTLog.h>
 
 #import <CodePush/CodePush.h>
-#import "UTBundleLoader.h"
 #import "UTReactViewController.h"
+#import "UTBundleLoader.h"
+#import "UTBundleLoadEventEmitter.h"
 
 #ifdef FB_SONARKIT_ENABLED
 #import <FlipperKit/FlipperClient.h>
@@ -47,7 +48,7 @@ static void InitializeFlipper(UIApplication *application) {
   self.isNewBundle = NO;
   
 
-  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadScript) name:@"UTCOOKReloadScriptNotification" object:nil];
+  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loadScript:) name:@"UTCOOKReloadScriptNotification" object:nil];
   [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotoFirstPage) name:@"UTCOOKGotoPageNotification" object:nil];
   
 //  RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
@@ -69,8 +70,9 @@ static void InitializeFlipper(UIApplication *application) {
 {
   UTReactViewController *busnVC = [[UTReactViewController alloc] initWithBundle:@"ios.index.busn1" moduleName:@"AwesomeTSProject"];
   [self.navig pushViewController:busnVC animated:YES];
+  /** 下面这段代码是加载业务JSBundle 然后初始化业务的页面并且显示的过程，这段代码已经被抽取到  UTReactViewContorller 中封装了 */
 //  NSError *error = nil;
-//  NSString *bundleName = self.isNewBundle ? @"ios.index.busn2" : @"ios.index.busn1";
+//  NSString *bundleName =  @"ios.index.busn1";
 //  NSLog(@"load bundle script:%@", bundleName);
 //  NSData *sourceBuz = [NSData dataWithContentsOfURL:[[NSBundle mainBundle] URLForResource:bundleName withExtension:@"bundle"]
 //                                            options:NSDataReadingMappedIfSafe
@@ -79,7 +81,7 @@ static void InitializeFlipper(UIApplication *application) {
 //  if (error) {
 //    NSLog(@"load business data error:%@", error);
 //  }
-//  RCTBridge *bridge = [ScriptLoadUtil getBridge];
+//  RCTBridge *bridge = [[UTBundleLoader sharedInstance] bridge];
 //  NSLog(@"begin to execute source code");
 //  [bridge.batchedBridge executeSourceCode:sourceBuz sync:YES];
 //  NSLog(@"after to execute source code");
@@ -96,11 +98,23 @@ static void InitializeFlipper(UIApplication *application) {
 //  });
 }
 
-- (void)reloadScript
+- (void)loadScript:(NSNotification *)noti
 {
   NSLog(@"reloadScript");
-  self.isNewBundle = !self.isNewBundle;
+  
+  [self loadBundle:noti.userInfo[@"BundleName"]];
+}
 
+- (void)loadBundle:(NSString *)bundleName
+{
+  if (bundleName == nil) {
+    NSLog(@"bundleName is nil!!!!!!!!!!!!!!!!!!");
+    return;
+  }
+  NSString* mainBundlePath = [NSBundle mainBundle].bundlePath;
+  NSString* jsBundlePath = [NSString stringWithFormat:@"file://%@/", mainBundlePath];
+  [[NSNotificationCenter defaultCenter] postNotificationName:UTDidLoadBundlePathNotification object:nil userInfo:@{@"path":jsBundlePath}];//通知rn更换查找图片资源的路径
+  [[UTBundleLoader sharedInstance] loadBundle:bundleName sync:NO];
 }
 
 //由于在 UTBundleLoader 中已经实现了 RCTBridgeDelegate，所以这里其实是可以删掉的，但是为了之后 debug 用所以保留

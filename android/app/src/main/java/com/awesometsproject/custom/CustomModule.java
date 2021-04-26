@@ -33,16 +33,15 @@ public class CustomModule extends ReactContextBaseJavaModule {
         return "CustomModule";
     }
 
-    /**清除缓存*/
     @ReactMethod
-    public void updateScript(String name, Promise promise){
+    public void loadBundle(String name, Promise promise){
         try {
 //            MainActivity mainActivity = (MainActivity) mReactApplicationContext.getCurrentActivity();
 //            mainActivity.isAsset = false;
 //            mainActivity.reloadScript();
-            promise.resolve("update script success:" + name);
+            promise.resolve("reload script success:" + name);
         } catch (Exception e) {
-            promise.reject("update script failed:" + name, e);
+            promise.reject("reload script failed:" + name, e);
         }
 
     }

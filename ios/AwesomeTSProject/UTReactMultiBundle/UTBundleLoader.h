@@ -26,4 +26,11 @@ extern NSString *const COMMON_BUNDLE_NAME;
 
 @end
 
+@interface RCTBridge (UTBundleLoader)
+
+- (RCTBridge *)batchedBridge;
+- (void)executeSourceCode:(NSData *)sourceCode sync:(BOOL)sync;
+
+@end
+
 NS_ASSUME_NONNULL_END

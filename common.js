@@ -13,9 +13,9 @@ DeviceEventEmitter.addListener('sm-bundle-changed',
 
 import { NativeEventEmitter, NativeModules } from 'react-native';
 if(Platform.OS != 'android') {//ios
-	const {BundleloadEventEmiter} = NativeModules;
+	const {UTBundleLoadEventEmitter} = NativeModules;
 
-	const bundleLoadEmitter = new NativeEventEmitter(BundleloadEventEmiter);
+	const bundleLoadEmitter = new NativeEventEmitter(UTBundleLoadEventEmitter);
 
 	const subscription = bundleLoadEmitter.addListener(
 		'DidLoadBundlePath',

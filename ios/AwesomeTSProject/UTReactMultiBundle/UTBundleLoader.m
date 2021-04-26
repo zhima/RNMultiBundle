@@ -18,12 +18,7 @@ NSString *const COMMON_BUNDLE_NAME = @"ios.common";
 
 
 
-@interface RCTBridge (UTBundleLoader)
 
-- (RCTBridge *)batchedBridge;
-- (void)executeSourceCode:(NSData *)sourceCode sync:(BOOL)sync;
-
-@end
 
 @interface UTBundleLoader ()<RCTBridgeDelegate>
 @property (nonatomic, strong) RCTBridge *bridge;
@@ -92,7 +87,7 @@ NSString *const COMMON_BUNDLE_NAME = @"ios.common";
     NSLog(@"load business data error:%@", error);
   }
   [self.bridge.batchedBridge executeSourceCode:sourceBuz sync:isSync];
-  NSLog(@"after to execute source code");
+  NSLog(@"after to execute source code:%@", bundleName);
 }
 
 - (void)reloadAllBundle

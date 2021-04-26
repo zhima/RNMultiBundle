@@ -11,11 +11,11 @@
 
 RCT_EXPORT_MODULE(CustomModule);
 
-RCT_EXPORT_METHOD(updateScript:(NSString *)scriptName
+RCT_EXPORT_METHOD(loadBundle:(NSString *)bundleName
                  resolver:(RCTPromiseResolveBlock)resolve
                  rejecter:(RCTPromiseRejectBlock)reject)
 {
-  [[NSNotificationCenter defaultCenter] postNotificationName:@"UTCOOKReloadScriptNotification" object:nil];
+  [[NSNotificationCenter defaultCenter] postNotificationName:@"UTCOOKReloadScriptNotification" object:nil userInfo:@{@"BundleName": bundleName}];
   resolve(@"update script success from native");
 }
 

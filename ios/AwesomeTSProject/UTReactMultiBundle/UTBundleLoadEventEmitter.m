@@ -19,6 +19,7 @@ NSString *const UTDidLoadBundlePathEventName = @"DidLoadBundlePath";
 {
   self = [super init];
   if (self) {
+    /** 这里之所以要通过接收 NSNotification 来发送 event到 JS 层，是因为原生层没法直接跟 JS 层通信，原生发消息给JS层必须通过 EventEmitter，而EventEmitter是只能由 JS层实例化然后监听的，原生层没有EventEmitter的实例，所以没法直接调用EventEmitter的实例方法然后发送 event 到 JS层，所以只能通过 NSNotification 做一个中转，原生层->NSNotification->EventEmitter->JS层*/
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(bundleLoaded:)
                                                  name:UTDidLoadBundlePathNotification

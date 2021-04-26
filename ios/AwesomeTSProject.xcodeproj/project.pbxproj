@@ -15,10 +15,6 @@
 		13AB342825BEA8220061F3D3 /* ReactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AB342025BEA8220061F3D3 /* ReactController.m */; };
 		13AB342925BEA8220061F3D3 /* ScriptLoadUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AB342125BEA8220061F3D3 /* ScriptLoadUtil.m */; };
 		13AB342A25BEA8220061F3D3 /* BundleDownloadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AB342225BEA8220061F3D3 /* BundleDownloadHandler.m */; };
-		13AB343825BEA9AB0061F3D3 /* ios.index.busn1.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13AB343425BEA9AB0061F3D3 /* ios.index.busn1.bundle */; };
-		13AB343925BEA9AB0061F3D3 /* ios.common.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13AB343525BEA9AB0061F3D3 /* ios.common.bundle */; };
-		13AB343A25BEA9AB0061F3D3 /* ios.index.busn2.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13AB343625BEA9AB0061F3D3 /* ios.index.busn2.bundle */; };
-		13AB343B25BEA9AB0061F3D3 /* ios.index.main.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13AB343725BEA9AB0061F3D3 /* ios.index.main.bundle */; };
 		13AB344425BEA9EE0061F3D3 /* num.ios.index.busn1.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13AB344125BEA9EE0061F3D3 /* num.ios.index.busn1.bundle */; };
 		13AB344525BEA9EE0061F3D3 /* num.ios.common.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13AB344225BEA9EE0061F3D3 /* num.ios.common.bundle */; };
 		13AB344625BEA9EE0061F3D3 /* num.ios.index.main.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13AB344325BEA9EE0061F3D3 /* num.ios.index.main.bundle */; };
@@ -26,6 +22,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		13DA542325AE9B9300B3E76C /* RCTCustomModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DA542225AE9B9300B3E76C /* RCTCustomModule.m */; };
+		13EBE34026282DFE00D2275C /* ios.index.busn1.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13EBE33C26282DFE00D2275C /* ios.index.busn1.bundle */; };
+		13EBE34126282DFF00D2275C /* ios.index.main.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13EBE33D26282DFE00D2275C /* ios.index.main.bundle */; };
+		13EBE34226282DFF00D2275C /* ios.index.busn2.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13EBE33E26282DFE00D2275C /* ios.index.busn2.bundle */; };
+		13EBE34326282DFF00D2275C /* ios.common.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13EBE33F26282DFE00D2275C /* ios.common.bundle */; };
 		24DFB840FA97A13DF046B2A7 /* libPods-AwesomeTSProject-AwesomeTSProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA57849107D5B45C18AA187 /* libPods-AwesomeTSProject-AwesomeTSProjectTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -74,10 +74,6 @@
 		13AB342425BEA8220061F3D3 /* ScriptLoadUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptLoadUtil.h; sourceTree = "<group>"; };
 		13AB342525BEA8220061F3D3 /* ReactController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactController.h; sourceTree = "<group>"; };
 		13AB342625BEA8220061F3D3 /* BundleDownloadHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleDownloadHandler.h; sourceTree = "<group>"; };
-		13AB343425BEA9AB0061F3D3 /* ios.index.busn1.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios.index.busn1.bundle; sourceTree = "<group>"; };
-		13AB343525BEA9AB0061F3D3 /* ios.common.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios.common.bundle; sourceTree = "<group>"; };
-		13AB343625BEA9AB0061F3D3 /* ios.index.busn2.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios.index.busn2.bundle; sourceTree = "<group>"; };
-		13AB343725BEA9AB0061F3D3 /* ios.index.main.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios.index.main.bundle; sourceTree = "<group>"; };
 		13AB344125BEA9EE0061F3D3 /* num.ios.index.busn1.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = num.ios.index.busn1.bundle; sourceTree = "<group>"; };
 		13AB344225BEA9EE0061F3D3 /* num.ios.common.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = num.ios.common.bundle; sourceTree = "<group>"; };
 		13AB344325BEA9EE0061F3D3 /* num.ios.index.main.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = num.ios.index.main.bundle; sourceTree = "<group>"; };
@@ -89,6 +85,10 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeTSProject/main.m; sourceTree = "<group>"; };
 		13DA542125AE9B9300B3E76C /* RCTCustomModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTCustomModule.h; sourceTree = "<group>"; };
 		13DA542225AE9B9300B3E76C /* RCTCustomModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTCustomModule.m; sourceTree = "<group>"; };
+		13EBE33C26282DFE00D2275C /* ios.index.busn1.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios.index.busn1.bundle; sourceTree = "<group>"; };
+		13EBE33D26282DFE00D2275C /* ios.index.main.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios.index.main.bundle; sourceTree = "<group>"; };
+		13EBE33E26282DFE00D2275C /* ios.index.busn2.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios.index.busn2.bundle; sourceTree = "<group>"; };
+		13EBE33F26282DFE00D2275C /* ios.common.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios.common.bundle; sourceTree = "<group>"; };
 		15B2A34B2959EDF05B96A658 /* Pods-AwesomeTSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* AwesomeTSProject-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AwesomeTSProject-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* AwesomeTSProject-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AwesomeTSProject-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,10 +195,10 @@
 		13AB343325BEA9AB0061F3D3 /* StringIndexBundle */ = {
 			isa = PBXGroup;
 			children = (
-				13AB343425BEA9AB0061F3D3 /* ios.index.busn1.bundle */,
-				13AB343525BEA9AB0061F3D3 /* ios.common.bundle */,
-				13AB343625BEA9AB0061F3D3 /* ios.index.busn2.bundle */,
-				13AB343725BEA9AB0061F3D3 /* ios.index.main.bundle */,
+				13EBE33F26282DFE00D2275C /* ios.common.bundle */,
+				13EBE33C26282DFE00D2275C /* ios.index.busn1.bundle */,
+				13EBE33E26282DFE00D2275C /* ios.index.busn2.bundle */,
+				13EBE33D26282DFE00D2275C /* ios.index.main.bundle */,
 			);
 			path = StringIndexBundle;
 			sourceTree = "<group>";
@@ -445,15 +445,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13AB343825BEA9AB0061F3D3 /* ios.index.busn1.bundle in Resources */,
-				13AB343A25BEA9AB0061F3D3 /* ios.index.busn2.bundle in Resources */,
+				13EBE34126282DFF00D2275C /* ios.index.main.bundle in Resources */,
+				13EBE34026282DFE00D2275C /* ios.index.busn1.bundle in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13AB344525BEA9EE0061F3D3 /* num.ios.common.bundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13AB343925BEA9AB0061F3D3 /* ios.common.bundle in Resources */,
-				13AB343B25BEA9AB0061F3D3 /* ios.index.main.bundle in Resources */,
 				13AB344425BEA9EE0061F3D3 /* num.ios.index.busn1.bundle in Resources */,
 				13AB344625BEA9EE0061F3D3 /* num.ios.index.main.bundle in Resources */,
+				13EBE34226282DFF00D2275C /* ios.index.busn2.bundle in Resources */,
+				13EBE34326282DFF00D2275C /* ios.common.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

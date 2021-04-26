@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Text, View, StyleSheet, Button } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
-import CustomModule from './CustomModule';
+import CustomModule from '../CustomModule';
 
 interface MainProps {
   navigation: StackNavigationProp<{}>,
